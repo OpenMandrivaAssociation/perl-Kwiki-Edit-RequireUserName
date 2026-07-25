@@ -2,14 +2,14 @@
 %define upstream_version 0.02
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Replaces Kwiki::Edit in order to require a user name to edit
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Kwiki/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Kwiki-Edit-RequireUserName
+Source0:	https://cpan.metacpan.org/authors/id/J/JP/JPEREGR/Kwiki-Edit-RequireUserName-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
